@@ -6,13 +6,13 @@ A collection of Qiskit notebooks implementing and analysing foundational quantum
 
 - Environment files
   - [env_qiskit.yml](env_qiskit.yml) — conda env for Qiskit-based notebooks
-  - [env_cirq.yml](env_cirq.yml) — alternative environment (optional)
+  - [pip-requirements.txt](pip-requirements.txt) — pip dependencies for Qiskit-based notebooks
 - Notebooks
-	- [Notebooks/Deutsch.ipynb](Notebooks/Deutsch.ipynb) — single-qubit Deutsch algorithm and simple oracles.
-	- [Notebooks/Deutsch-Jozsa.ipynb](Notebooks/Deutsch-Jozsa.ipynb) — n-qubit Deutsch–Jozsa and oracle builders.
 	- [Notebooks/Berinstein-Vazarani.ipynb](Notebooks/Berinstein-Vazarani.ipynb) — Bernstein–Vazirani algorithm and oracle helpers for secret bit string.
-	- [Notebooks/Bell-State_Qiskit.ipynb](Notebooks/Bell%20State_Qiskit.ipynb) — Bell states, simulation, and noise experiments.
+	- [Notebooks/Deutsch-Jozsa.ipynb](Notebooks/Deutsch-Jozsa.ipynb) — n-qubit Deutsch–Jozsa and oracle builders.
+	- [Notebooks/Deutsch.ipynb](Notebooks/Deutsch.ipynb) — single-qubit Deutsch algorithm and simple oracles.
 	- [Notebooks/Quantum-Teleportation.ipynb](Notebooks/Quantum%20Teleportation.ipynb) — teleportation examples (classical and statevector variants).
+	- [Notebooks/Bell-State.ipynb](Notebooks/Bell%20State_Qiskit.ipynb) — Bell states, simulation, and noise experiments.
 
 > Open any notebook from the `Notebooks/` folder to inspect the implemented circuits, helper functions, and simulation calls.
 
